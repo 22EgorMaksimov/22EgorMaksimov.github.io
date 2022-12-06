@@ -5,33 +5,79 @@
       <title>
          Андрей Браун- Биография 
       </title>
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       
       <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/reset.css">
+      
+      <link rel="stylesheet" href="css/stylesheet.css">
+      <link rel="stylesheet" href="css/font-awesome.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
    <header>
       <nav>
-            <div class="logo">Андрей Браун</div>
-            <div class="menu">
-            <ul>
-                  <li>ОБО МНЕ </li>
-                  <li>УСЛУГИ </li>
-                  <li>КЕЙСЫ </li>
-                  <li>ПРАЙС </li>
-                  <li>ОТЗЫВЫ</li> 
-                  <li>КОНТАКТЫ</li>
-            </ul></div>
+            <div class="container">
+                  <div class="row">
+                        <div class="col-xxl-2 col-lg-3 col-7"> <div class="logo">Андрей Браун</div></div>
+           
+                        <div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu">
+                              <ul>
+                                    <li ><a href="#">ОБО МНЕ</a> </li>
+                                    <li><a href="#">УСЛУГИ</a> </li>
+                                    <li><a href="#">КЕЙСЫ</a> </li>
+                                    <li><a href="#">ПРАЙС</a> </li>
+                                    <li><a href="#">ОТЗЫВЫ</a></li> 
+                                    <li><a href="#">КОНТАКТЫ</a></li>
+                              </ul></div></div>  
+                              <div class="col-5  d-flex d-lg-none flex-column justify-content-center align-items-end"><div class="dropdown">
+                                    <a class="btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Навигация 
+                                    </a>
+                                  
+                                    <ul class="dropdown-menu">
+                                     
+                                      <li ><a href="#" class="dropdown-item">ОБО МНЕ</a> </li>
+                                    <li><a href="#" class="dropdown-item">УСЛУГИ</a> </li>
+                                    <li><a href="#" class="dropdown-item">КЕЙСЫ</a> </li>
+                                    <li><a href="#" class="dropdown-item">ПРАЙС</a> </li>
+                                    <li><a href="#" class="dropdown-item">ОТЗЫВЫ</a></li> 
+                                    <li><a href="#" class="dropdown-item">КОНТАКТЫ</a></li>
+                                    </ul>
+                                  </div></div>
+                              
+                  </div>
+            </div>
+      
       </nav>
    </header>
+
   <div class="main">
-      <div class="title__container">
-            <h1>Привет<br>Я Андрей Браун</h1>
-            <h4>Фулл стэк веб-разработчик </h4>
-            <input type="submit" value="Обо мне ">
+      <div class="container h-100">
+            <div class="row align-items-center h-100" >
+                  <div class="col-6 col-lg-6"><div class="title__container">
+                        <h1>Привет<br>Я Андрей Браун</h1>
+                      
+                        <h4> <i class="fa fa-css3 custom-css3" aria-hidden="true"></i> Фулл стэк веб-разработчик </h4>
             
-            <input type="submit" value="Мои работы  ">
+                        <a href="#">
+                              <button>
+                                    Обо мне 
+                              </button>
+                        </a>
+                        
+                        <a href="#">
+                              <button>
+                                    Мои работы
+                              </button>
+                        </a>
+                  </div></div>
+
+            </div>
       </div>
+      
       
   </div>
   <div class="aboutme__container  ">
@@ -47,10 +93,12 @@
       <p>
             Lorem im dolor sit, amet consectetur adipisicing elit. Porro eveniet aut eos blanditiis illo natus nesciunt maiores,<br> magni iusto totam harum voluptatum quisquam voluptatem autem, numquam fugiat similique odio. Mollitia.
       </p>
-      <button>
+     <a href="test.htmt">
+      <button >
             <img src="img/png/downloadICO.png" >
             Скачать резюме 
       </button>
+     </a>
 </div>
 <div class="options__container">
       <h2>ЧТО Я УМЕЮ</h2>
@@ -103,10 +151,13 @@
             <h2 >WEBSITE:</h2>
             <a href="http://www.somedomain.com">http://www.somedomain.com</a>
             <br>
-            <button >VISIT LIVE SITE</button>
+           
+            <a href="#">
+                  <button >VISIT LIVE SITE</button>
+            </a>
       </div>
       <div class="right_part">
-            <h2 ">Название проекта</h2>
+            <h2 >Название проекта</h2>
             <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit., sed do eiusmod tempor incididunt ut labore et dolore magna<br>aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
@@ -199,15 +250,15 @@
                  <div class="main_block">
                   <div class="info_block">
                         <img src="img/png/locate.png">
-                        <p>Санкт-Петербург<br>Невский проспект 11</p>
+                       <a href="#">Санкт-Петербург<br>Невский проспект 11</a>
                   </div>
                   <div class="info_block">
                         <img src="img/png/mail.png">
-                        <p>info@companyname.com</p>
+                        <a href="#">info@companyname.com</a>
                   </div>
                   <div class="info_block">
                         <img src="img/png/phone.png">
-                        <p>+7 999 999-99-99</p>
+                      <a href="tel:79999999999">+7 999 999-99-99</a>
                   </div>
                   
                  </div>
@@ -233,23 +284,27 @@
                               </textarea>
                         </div>
                       
+                       <a href="#">
                         <button placeholder="Отправить">
                               Отправить
       
                         </button>
+                       </a>
+                       
                   </form>
                  </div>
                  
                   
             </div>
       </div>
-     
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198740.83318794548!2d-77.15466033020276!3d38.89367081344252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2z0JLQsNGI0LjQvdCz0YLQvtC9LCDQvtC60YDRg9CzINCa0L7Qu9GD0LzQsdC40Y8sINCh0KjQkA!5e0!3m2!1sru!2sru!4v1666036327919!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-      <img src="img/Карта.jpg">
+     
       <div class="footer__footer">
             Copyright © 2021 Андрей Браун. Design by Web
       </div>
 
 </footer>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
