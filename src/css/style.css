@@ -279,6 +279,7 @@ nav {
 }
 .options {
     background:url("../img/wIc.jpg") center/cover no-repeat;
+    background-attachment: fixed;
 }
 .options__container{
   
@@ -580,7 +581,7 @@ nav {
 }
 .reviews__container p {
    font-size:17px;
-   padding-top: 48px;
+   padding-top: 28px;
 
    line-height: 20.75px;
 }
@@ -872,5 +873,23 @@ iframe {
 }
 
 
+.carousel-item {
+   height: 400px;
+   background-color: white;
+   
+}
+.carousel-item {
+   background-color: #4f0ccc;
+}
 
-/**
+
+.windows8 {
+
+   height: 100%;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   position: fixed;
+   z-index: 200;
+    justify-content: center;
+}
