@@ -8,7 +8,7 @@ function outNum(num, elem) {
    let t = Math.round(ttime/(num/tstep));
    let interval = setInterval(() => {
       n = n + tstep ;
-      if (n == num ){
+      if (n >= num ){
          clearInterval(interval);
       }
       l.innerHTML = n ;
