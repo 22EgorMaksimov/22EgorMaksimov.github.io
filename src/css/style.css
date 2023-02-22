@@ -339,8 +339,8 @@ nav {
 .cases__container {
    text-align: center;
 }
-.cases__container h2 {
-   padding-top: 101px;
+.cases__container h3 {
+   padding-top: 10px;
    font-weight: 500;
    color:#384354;
    font-size: 34px;
@@ -355,7 +355,7 @@ nav {
    opacity: 1;
 }
 .cases__container p {
-   padding-top:63px;
+   padding-top:10px;
    font-size: 17px;
    color: #3F495A;
 }
@@ -452,11 +452,18 @@ nav {
 
 
 
+
+.container_calc select{
+   background-color: red;
+   color:white;
+}
+
+
 .calculation__container {
  
    
    color: #1C2534;
-   margin-top:145px ;
+   margin-top:100px ;
    margin-bottom: 150px;
    
   
@@ -478,10 +485,13 @@ nav {
 .calculation__container select {
    margin-top: 22px;
    height:57px;
-   background-color:#EEEEEE;
-   width: 92%;
+   background-color:#152d97;
+   width: 50%;
+   border-radius: 15px;
+   font-size: 20px;
+   font-weight: 500;
   
-  
+  color: white;
    
 }
 .calculation__container p>span {
@@ -874,13 +884,11 @@ iframe {
 
 
 .carousel-item {
-   height: 400px;
+   height: 900px;
    background-color: white;
    
 }
-.carousel-item {
-   background-color: #4f0ccc;
-}
+
 
 
 .windows8 {
@@ -893,3 +901,50 @@ iframe {
    z-index: 200;
    justify-content: center;
 }
+
+
+
+.element-animation  {
+   opacity: 0;
+}
+.element-animation.show-animation {
+   opacity: 1;
+   transition: opacity 1s;
+}
+
+.casec_btn button{
+   height: 40px;
+   padding-left:5px ;
+   padding-right:5px ;
+   width: 140xp;
+   background-color: #63B5AE;
+   color: white;
+   border-radius :5px ;
+   transform:scale(1);
+   text-decoration: none;
+}
+.casec_btn button a:hover{
+   height: 40px;
+   padding-left:5px ;
+   padding-right:5px ;
+   width: 140xp;
+   background-color: #63B5AE;
+   color: white;
+   border-radius :5px ;
+   transform:scale(1.1);
+   transition:all 0.2s;
+   text-decoration: none;
+}
+.casec_btn button a::after{
+   height: 40px;
+   padding-left:5px ;
+   padding-right:5px ;
+   width: 140xp;
+   background-color: #63B5AE;
+   color: white;
+   border-radius :5px ;
+   transform:scale(1.2);
+transition:all 0.2s;
+text-decoration: none;
+}
+
